@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarTrack - Brand New Car Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CarTrack</h1>
+        <p>Effortlessly Track and Manage Your New Car Inventory</p>
+    </header>
+    
+    <main>
+        <section class="add-car">
+            <h2>Add a New Car</h2>
+            <form id="car-form">
+                <input type="text" id="car-make" placeholder="Car Make" required>
+                <input type="text" id="car-model" placeholder="Car Model" required>
+                <input type="number" id="car-year" placeholder="Year" required>
+                <input type="text" id="car-vin" placeholder="VIN Number" required>
+                <button type="submit">Add Car</button>
+            </form>
+        </section>
+        
+        <section class="car-list">
+            <h2>Tracked Cars</h2>
+            <ul id="car-container"></ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 CarTrack. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
