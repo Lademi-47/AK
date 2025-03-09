@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Cars Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Latest Beautiful Cars</h1>
+    </header>
+    <div class="gallery">
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?luxury-car" alt="Luxury Car">
+            <p>Luxury Car</p>
+        </div>
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?sports-car" alt="Sports Car">
+            <p>Sports Car</p>
+        </div>
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?supercar" alt="Supercar">
+            <p>Supercar</p>
+        </div>
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?classic-car" alt="Classic Car">
+            <p>Classic Car</p>
+        </div>
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?electric-car" alt="Electric Car">
+            <p>Electric Car</p>
+        </div>
+        <div class="car-item">
+            <img src="https://source.unsplash.com/400x300/?hypercar" alt="Hypercar">
+            <p>Hypercar</p>
+        </div>
+    </div>
+</body>
+</html>
+
